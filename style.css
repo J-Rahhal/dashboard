@@ -166,3 +166,51 @@ input[type="button"] {
 .dashicon {
     font-size: 50px;
 }
+
+.r-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+
+.post-title h3, .post-main {
+    margin: 10px 0 0 10px;
+}
+
+.post-main{
+    color: #D7DBDD
+}
+
+.post-end {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    color: rgb(204, 195, 195);
+    margin: 0  5px 5px 0;
+}
+
+.box-1, .box-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.announcement:not(:last-child) {
+    border-bottom: 1px solid rgb(22, 22, 22);
+}
+
+.announcement{
+    padding: 5px;
+}
+
+.announcement h4 {
+    margin-bottom: 5px;
+}
+
+.announcement p {
+    color: #D7DBDD;
+}
